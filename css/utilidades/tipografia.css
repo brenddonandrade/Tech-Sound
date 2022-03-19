@@ -1,0 +1,59 @@
+:root {
+  --font-1-xxl: normal 300 6.25rem/1.25 'Rajdhani', sans-serif;
+  --font-1-xl: normal 300 4rem/1.25 'Rajdhani', sans-serif;
+  --font-1-l: normal 400 3.125rem/1.25 'Rajdhani', sans-serif;
+  --font-2-xxl: normal 500 1.125rem/1.3 'Ubuntu', sans-serif;
+  --font-2-xl: normal 400 1.125rem/1.3 'Ubuntu', sans-serif;
+  --font-2-l: normal 400 1rem/1.3 'Ubuntu', sans-serif;
+  --font-2-m-a: normal 500 0.875rem/1.3 'Ubuntu', sans-serif;
+  --font-2-m-b: normal 400 0.625rem/1.1 'Ubuntu', sans-serif;
+}
+
+.font-1-xxl {
+  font: var(--font-1-xxl);
+  letter-spacing: -1.5px;
+}
+.font-1-xl {
+  font: var(--font-1-xl);
+  letter-spacing: -0.5px;
+}
+.font-1-l {
+  font: var(--font-1-l);
+}
+.font-2-xxl {
+  font: var(--font-2-xxl);
+  text-transform: uppercase;
+  letter-spacing: 1.25px;
+}
+.font-2-xl {
+  font: var(--font-2-xl);
+  letter-spacing: 0.5px;
+}
+.font-2-l {
+  font: var(--font-2-l);
+  letter-spacing: 0.25px;
+}
+.font-2-m-a {
+  font: var(--font-2-m-a);
+  text-transform: uppercase;
+  letter-spacing: 1.25px;
+}
+.font-2-m-b {
+  font: var(--font-2-m-b);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+@media (max-width: 800px) {
+  .font-1-xxl {
+    font-size: 4rem;
+  }
+  .font-2-l {
+    font: 0.875rem/1.3;
+  }
+}
+@media (max-width: 600px) {
+  .font-1-xxl {
+    font: normal 400 3.125rem/1.25 'Rajdhani', sans-serif;
+  }
+}

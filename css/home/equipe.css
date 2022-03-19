@@ -1,0 +1,43 @@
+.equipe-bg {
+  background-color: var(--cor-c2);
+}
+
+.equipe {
+  display: grid;
+  justify-content: center;
+}
+
+.equipe h1 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.equipe-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 120px;
+}
+
+.equipe-img {
+  max-width: 250px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+.equipe-img img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.pessoa h2,
+.pessoa p {
+  text-align: center;
+}
+
+.pessoa h2 {
+  margin-bottom: 20px;
+}
+.pessoa p {
+  margin-bottom: 60px;
+}
