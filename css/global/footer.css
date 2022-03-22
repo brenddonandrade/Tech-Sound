@@ -1,0 +1,9 @@
+.footer-bg {
+  background: var(--cor-c11);
+  color: var(--cor-c1);
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
