@@ -9,10 +9,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  margin-bottom: 600px;
-}
-
 ul {
   list-style-type: none;
 }
