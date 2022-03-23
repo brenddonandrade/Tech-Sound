@@ -5,7 +5,7 @@
 
 .footer {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(270px, auto));
   padding: 0px 16px;
   align-items: start;
 }
@@ -87,4 +87,13 @@
 
 .footer-icon img {
   width: 100%;
+}
+
+@media (max-width: 700px) {
+  .footer {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding-top: 60px;
+    text-align: center;
+  }
 }
