@@ -1,0 +1,11 @@
+#servicos .intro-content {
+  display: flex;
+}
+
+.intro-img {
+  max-width: 600px;
+}
+
+.intro-img img {
+  width: 100%;
+}
